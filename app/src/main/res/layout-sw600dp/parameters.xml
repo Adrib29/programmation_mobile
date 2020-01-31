@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="704dp"
+        android:layout_height="1127dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fond" />
+
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bois"
+        android:text="@string/Paramètres"
+        android:textAlignment="center"
+
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="149dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/bois"
+        android:text="@string/Retour"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="326dp"
+        android:layout_height="522dp"
+        android:layout_marginTop="440dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/textView3"
+                android:layout_width="334dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bois"
+                android:gravity="center_horizontal"
+                android:text="@string/Musique"
+                app:autoSizeTextType="uniform" />
+
+            <Button
+                android:id="@+id/ButtonSound"
+                android:layout_width="332dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bois"
+                android:text="@string/Son"
+                app:autoSizeTextType="uniform" />
+
+            <Button
+                android:id="@+id/buttonVibration"
+                android:layout_width="337dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="92dp"
+                android:background="@drawable/bois"
+                android:text="@string/Vibration"
+                app:autoSizeTextType="uniform" />
+
+            <Button
+                android:id="@+id/buttonChangelangue"
+                android:layout_width="337dp"
+                android:layout_height="67dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bois"
+                android:text="@string/langue"
+                app:autoSizeTextType="uniform" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

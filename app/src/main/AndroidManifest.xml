@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.cfc.tp2">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="Solitaire"
+        android:roundIcon="@mipmap/icone_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Levels"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Game"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Parameters"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Tile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Score"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Score_board"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service android:name=".BroadcastService" />
+
+        <service android:name=".Tile"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="770dp"
+        android:layout_height="1093dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492"
+        app:srcCompat="@drawable/fond" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="352dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@drawable/bois" />
+
+    <TextView
+        android:id="@+id/textChooseMode"
+        android:layout_width="327dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="#00000000"
+        android:text="@string/Mode_de_jeu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9A000000"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/normal_mode"
+        android:layout_width="163dp"
+        android:layout_height="64dp"
+        android:background="#00000000"
+        android:text="@string/Mode_normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9A000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textChooseMode" />
+
+    <Button
+        android:id="@+id/timer_mode"
+        android:layout_width="163dp"
+        android:layout_height="64dp"
+        android:background="#00000000"
+        android:text="@string/Mode_chrono"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9A000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/normal_mode"
+        app:layout_constraintTop_toBottomOf="@+id/textChooseMode" />
+
+    <ImageView
+        android:id="@+id/imageFondTimer"
+        android:layout_width="371dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/bois_large" />
+
+    <TextView
+        android:id="@+id/textChooseTimer"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:background="#00000000"
+        android:text="@string/Temps_de_jeu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9A000000"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/imageFondTimer"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="@+id/imageFondTimer"
+        app:layout_constraintTop_toTopOf="@+id/imageFondTimer" />
+
+    <Button
+        android:id="@+id/button1min"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="#00000000"
+        android:text="@string/un_min"
+        app:layout_constraintEnd_toStartOf="@+id/button5min"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/imageFondTimer"
+        app:layout_constraintTop_toBottomOf="@+id/textChooseTimer" />
+
+    <Button
+        android:id="@+id/button3min"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:text="@string/trois_min"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFondTimer"
+        app:layout_constraintEnd_toStartOf="@+id/button10min"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/imageFondTimer"
+        app:layout_constraintTop_toBottomOf="@+id/button1min"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <Button
+        android:id="@+id/button10min"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="184dp"
+        android:background="#00000000"
+        android:text="@string/dix_min"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFondTimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5min"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5min"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:background="#00000000"
+        android:text="@string/cinq_min"
+        app:layout_constraintEnd_toEndOf="@+id/imageFondTimer"
+        app:layout_constraintTop_toBottomOf="@+id/textChooseTimer" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="355dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageFondTimer"
+        app:srcCompat="@drawable/bois_very_large" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="322dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        android:text="@string/Plateau_de_jeu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#9A000000"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/buttonLevel1"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00000000"
+        android:text="@string/Européen"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLevel2"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLevel5" />
+
+    <Button
+        android:id="@+id/buttonLevel2"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:background="#00000000"
+        android:text="@string/J_C_Wiegleb_Allemagne"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLevel4"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <Button
+        android:id="@+id/buttonLevel3"
+        android:layout_width="121dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        android:text="@string/assylétrique_3_3_2_2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/buttonLevel2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLevel5" />
+
+    <Button
+        android:id="@+id/buttonLevel4"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="#00000000"
+        android:text="anglais"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLevel1"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/buttonLevel5"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00000000"
+        android:text="@string/diamant"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLevel2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="101dp"
+        android:layout_height="39dp"
+        android:background="@drawable/bois"
+        android:text="@string/Retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+</android.support.constraint.ConstraintLayout>

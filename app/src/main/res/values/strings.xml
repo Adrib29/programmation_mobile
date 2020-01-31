@@ -1,0 +1,76 @@
+<resources>
+    <string name="Jouer">Jouer</string>
+    <string name="Scores">Scores</string>
+    <string name="Jeu_du_solitaire">Jeu du solitaire</string>
+    <string name="Retour">Retour</string>
+    <string name="Mode_de_jeu">Mode de jeu</string>
+    <string name="Mode_normal">Mode  normal</string>
+    <string name="Mode_chrono">Mode chrono</string>
+    <string name="Temps_de_jeu">Temps de jeu</string>
+    <string name="un_min">1 min</string>
+    <string name="cinq_min">5 min</string>
+    <string name="trois_min">3 min</string>
+    <string name="dix_min">10 min</string>
+    <string name="Plateau_de_jeu"> Plateau de jeu</string>
+    <string name="anglais"> Anglais</string>
+    <string name="Européen">Européen</string>
+    <string name="J_C_Wiegleb_Allemagne">Wiegleb Allemagne</string>
+    <string name="diamant"> Diamant</string>
+    <string name="assylétrique_3_3_2_2"> Asymétrique</string>
+    <string name="Paramètres"> Paramètres</string>
+    <string name="Musique"> Musique</string>
+    <string name="Son"> Son</string>
+    <string name="Fin_de_partie"> Fin de partie</string>
+    <string name="Résultats"> Résultats</string>
+    <string name="score"> score</string>
+    <string name="Temps_restant"> Temps restant</string>
+    <string name="Sauvegarde_du_score"> Sauvegarde du score</string>
+    <string name="Entrez_votre_nom"> Entrez votre nom</string>
+    <string name="Tableau_des_scores"> Tableau des scores</string>
+    <string name="Menu"> Menu</string>
+    <string name="Vibration"> Vibration</string>
+    <string name="langue"> langue</string>
+    <string name="Billes_restantes"> Billes restantes :</string>
+    <string name="Billes_enlevées">  Billes enlevées :</string>
+    <string name="Sans_chrono">  Sans chrono</string>
+    <string name="Allemand"> Allemand</string>
+    <string name="Valider"> Valider</string>
+
+    <string name="choix_des_langues"> paramètre de langue</string>
+    <string name="choix_des_musique"> paramètre de musique</string>
+    <string name="paramètre_de_son"> paramètre de son</string>
+    <string name="paramètre_de_vibration"> paramètre de vibration</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

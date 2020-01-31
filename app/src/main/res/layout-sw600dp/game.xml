@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="642dp"
+        android:layout_height="1078dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fond" />
+
+    <ImageView
+        android:id="@+id/imageFondChrono"
+        android:layout_width="285dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:srcCompat="@drawable/bois" />
+
+    <TextView
+        android:id="@+id/countDownText"
+        android:layout_width="261dp"
+        android:layout_height="83dp"
+        android:text="TextView"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="@+id/imageFondChrono"
+        app:layout_constraintStart_toStartOf="@+id/imageFondChrono"
+        app:layout_constraintTop_toTopOf="@+id/imageFondChrono" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="613dp"
+        android:layout_height="485dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageFondChrono"
+        app:srcCompat="@drawable/empty_board" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/board"
+        android:layout_width="409dp"
+        android:layout_height="408dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="140dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bois"
+        android:rowOrderPreserved="true"
+        android:text="@string/Retour"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="367dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bois" />
+
+    <TextView
+        android:id="@+id/textViewBilles"
+        android:layout_width="286dp"
+        android:layout_height="83dp"
+        android:text="TextView"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.509" />
+
+</android.support.constraint.ConstraintLayout>

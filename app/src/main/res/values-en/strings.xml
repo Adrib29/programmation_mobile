@@ -1,0 +1,58 @@
+<resources>
+    <string name="Jouer">Play</string>
+    <string name="Scores">Scores</string>
+    <string name="Jeu_du_solitaire">Solitaire game</string>
+    <string name="Retour">Back</string>
+    <string name="Mode_de_jeu">Game mode</string>
+    <string name="Mode_normal">Normal Mode</string>
+    <string name="Mode_chrono">Chrono mode</string>
+    <string name="Temps_de_jeu">Match time</string>
+    <string name="un_min">1 min</string>
+    <string name="cinq_min">5 min</string>
+    <string name="trois_min">3 min</string>
+    <string name="dix_min">10 min</string>
+    <string name="Plateau_de_jeu"> Game board</string>
+    <string name="anglais"> English</string>
+    <string name="Européen">European</string>
+    <string name="J_C_Wiegleb_Allemagne">Wiegleb Germany</string>
+    <string name="diamant"> Diamond</string>
+    <string name="assylétrique_3_3_2_2"> Asymmetric</string>
+    <string name="Paramètres"> Settings</string>
+    <string name="Musique"> Music</string>
+    <string name="Son"> Sound</string>
+    <string name="Fin_de_partie"> Endgame</string>
+    <string name="Résultats"> Results</string>
+    <string name="score"> score</string>
+    <string name="Temps_restant"> Remaining time</string>
+    <string name="Sauvegarde_du_score"> Saving your score</string>
+    <string name="Entrez_votre_nom"> Enter your name</string>
+    <string name="Tableau_des_scores"> Scoreboard</string>
+    <string name="Menu"> Menu</string>
+    <string name="Vibration"> Vibration</string>
+    <string name="langue"> Language</string>
+    <string name="Billes_restantes"> Remaining balls :</string>
+    <string name="Billes_enlevées">  Balls removed :</string>
+    <string name="Sans_chrono">  Without stopwatch</string>
+    <string name="Allemand"> German</string>
+    <string name="Valider"> Confirm</string>
+    <string name="choix_des_langues"> Language setting </string>
+    <string name="choix_des_musique"> Music setting</string>
+    <string name="paramètre_de_son"> Sound setting</string>
+    <string name="paramètre_de_vibration"> Vibration setting</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
